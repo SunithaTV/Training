@@ -1,22 +1,24 @@
 package JavaTraining.src.Day2;
 
 public class Search {
-    private static void check(int[] arr, int toCheckValue)
+    public static void main(String[]args)
     {
+        int arr[] = {5, 1, 4, 9, 7, 2, 6, 10};
+        int toCheckValue =4;
         boolean test = false;
-        for (int element : arr) {
-            if (element == toCheckValue) {
-                test = true;
-                break;
+        for (int i=0;i<arr.length;i++) {
+            if (arr[i] == toCheckValue) {
+                System.out.println("Is " + toCheckValue
+                        + " present in the array: ");
+                test=true;
             }
         }
-        System.out.println("Is " + toCheckValue
-                + " present in the array: " + test);
-    }
-    public static void main (String[]args)
-        {
-            int arr[] = {5, 1, 1, 9, 7, 2, 6, 10};
-            int toCheckValue =4;
-            check(arr, toCheckValue);
+           if(!test)
+           {System.out.println("Is " + toCheckValue
+                    + " not present in the array: ");
         }
     }
+}
+
+
+
