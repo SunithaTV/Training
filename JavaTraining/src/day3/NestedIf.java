@@ -1,4 +1,4 @@
-package JavaTraining.src.Day3;
+package JavaTraining.src.day3;
 
 public class NestedIf {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package JavaTraining.src.Day2;
+package JavaTraining.src.day2;
 
 public class RemoveDuplicates{
     public static void main(String[] args)

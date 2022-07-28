@@ -1,8 +1,4 @@
-package JavaTraining.src.Day3;
-
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+package JavaTraining.src.day3;
 
 //multiples of 5
 public class ForLoop {

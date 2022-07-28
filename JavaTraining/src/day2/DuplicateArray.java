@@ -1,4 +1,4 @@
-package JavaTraining.src.Day2;
+package JavaTraining.src.day2;
 
 public class DuplicateArray {
 
